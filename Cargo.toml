@@ -4,6 +4,12 @@ version = "0.1.0"
 authors = ["Aditya Kishore <akushwarrior@gmail.com>"]
 edition = "2018"
 
+[lib]
+name = "scnative"
+crate-type = ["cdylib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+block-modes = "0.7.0"
+aes = "0.6.0"
+subtle-encoding = "0.5.1"
